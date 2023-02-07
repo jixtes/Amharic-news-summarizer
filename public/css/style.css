@@ -1,0 +1,68 @@
+body {
+	margin-top: 0
+}
+::selection {
+  background: #c7e8f6; /* WebKit/Blink Browsers */
+}
+#textarea {
+	font-size:16px;
+}
+.report-detail {
+	margin: 20px 0;
+}
+#main-wrapper {
+	margin: 0% 5% 0 20%
+}
+
+#textarea textarea {
+	width:100%; height: 100%; font-size: inherit;
+	border-style: hidden;
+	outline-color: #e6853e;
+	padding: 2%
+}
+
+button {
+	font-size: 20px;
+	background: white;
+	border: 1px solid gray;
+}
+button {
+	outline: none
+}
+
+button:hover {
+	background: #eff0f1;
+	cursor: pointer;
+}
+
+.sentence.active {
+	color: #e6853e;
+	cursor: pointer;
+}
+
+.word.active {
+	color: green !important;
+	/*font-size: 19px;*/
+	font-weight: bold
+
+}
+
+.tooltip {
+	font-size: 16px;
+    border-radius: 18px;
+    position: fixed;
+    top: 1%;
+    bottom: 60%;
+    padding: 6px;
+}
+
+.tooltip ul {
+	list-style: none;
+	padding-left: 0;
+	line-height: 1.9;
+	font-weight: bold
+}
+.tooltip li {
+	max-width: 250px;
+}
+
