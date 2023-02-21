@@ -30,6 +30,5 @@ node server.js
 ```
 
 # UI
-Select the extraction level. K-means is a more intelligent wa
 
 <img width="1377" alt="Screenshot 2023-02-21 at 10 15 54 AM" src="https://user-images.githubusercontent.com/5771578/220274395-36bfa3f5-5f2e-404b-84b1-35dc3fc554cf.png">
