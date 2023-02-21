@@ -18,7 +18,7 @@ After the sentences are segmented each sentences will be tokenized. The tokeniza
 Next step is sentence scoring where TF-IDF of each words for every sentence is calculated. Scores for every sentence will then be assigned by summing all the TF-IDF value of the words found in the sentence. Given an input of Amharic news article, the sentences are first tokenized. Each token’s TF- IDF will then be calculated. The scores for each tokens will be aggregated to be assigned for the sentence they belong to.
 
 
-<img width="406" alt="Screenshot 2023-02-21 at 10 16 42 AM" src="https://user-images.githubusercontent.com/5771578/220274586-1e2c603b-f00d-413d-b8b3-9a35baa07d16.png">
+<img width="406" alt="Screenshot 2023-02-21 at 10 16 42 AM" src="https://user-images.githubusercontent.com/5771578/220274586-1e2c603b-f00d-413d-b8b3-9a35baa07d16.png" style='margin-left:2em'>
 
 
 The fourth and final process is clustering. K-means algorithm is used to cluster the sentences. The sentences will be represented by their TF-IDF total score calculated in the previous step. And k which is the number of clusters is always set to two because we are looking to get two clusters for our application; set of sentences to be included in the summary and the rest of sentences to be left out of the summary. The cluster with the bigger centroid value is selected as a summary. 
